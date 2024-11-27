@@ -2,10 +2,8 @@ import { lusitana } from "@/app/ui/fonts";
 import CardWrapper from '@/app/ui/dashboard/cards';
 import RevenueChart from '@/app/ui/dashboard/revenue-chart';
 import LatestInvoices from '@/app/ui/dashboard/latest-invoices';
-import { fetchCardData } from "@/app/lib/data";
-import { LatestInvoice } from '@/app/lib/definitions';
 import { Suspense } from "react";
-import { LatestInvoicesSkeleton, RevenueChartSkeleton, CardsSkeleton, CardSkeleton } from "@/app/ui/skeletons";
+import { LatestInvoicesSkeleton, RevenueChartSkeleton, CardSkeleton } from "@/app/ui/skeletons";
 
 export default async function Page() {
     // const revenue = await fetchRevenue();
